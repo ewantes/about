@@ -1,0 +1,501 @@
+﻿        // Core variables and mixins
+@import "less/variables.less";
+@import "less/mixins.less";
+
+// Reset and dependencies
+@import "less/normalize.less";
+@import "less/print.less";
+@import "less/glyphicons.less";
+
+// Core CSS
+@import "less/scaffolding.less";
+@import "less/type.less";
+@import "less/code.less";
+@import "less/grid.less";
+@import "less/tables.less";
+@import "less/forms.less";
+@import "less/buttons.less";
+
+// Components
+@import "less/component-animations.less";
+@import "less/dropdowns.less";
+@import "less/button-groups.less";
+@import "less/input-groups.less";
+@import "less/navs.less";
+@import "less/navbar.less";
+@import "less/breadcrumbs.less";
+@import "less/pagination.less";
+@import "less/pager.less";
+@import "less/labels.less";
+@import "less/badges.less";
+@import "less/jumbotron.less";
+@import "less/thumbnails.less";
+@import "less/alerts.less";
+@import "less/progress-bars.less";
+@import "less/media.less";
+@import "less/list-group.less";
+@import "less/panels.less";
+@import "less/responsive-embed.less";
+@import "less/wells.less";
+@import "less/close.less";
+
+// Components w/ JavaScript
+@import "less/modals.less";
+@import "less/tooltip.less";
+@import "less/popovers.less";
+@import "less/carousel.less";
+
+// Utility classes
+@import "less/utilities.less";
+@import "less/responsive-utilities.less";
+
+//mixins
+@import "less/mixins/alerts.less";
+@import "less/mixins/alerts.less";
+@import "less/mixins/background-variant.less";
+@import "less/mixins/border-radius.less";
+@import "less/mixins/buttons.less";
+@import "less/mixins/center-block.less";
+@import "less/mixins/clearfix.less";
+@import "less/mixins/forms.less";
+@import "less/mixins/gradients.less";
+@import "less/mixins/grid-framework.less";
+@import "less/mixins/grid-framework.less";
+@import "less/mixins/grid.less";
+@import "less/mixins/hide-text.less";
+@import "less/mixins/image.less";
+@import "less/mixins/image.less";
+@import "less/mixins/labels.less";
+@import "less/mixins/labels.less";
+@import "less/mixins/list-group.less";
+@import "less/mixins/nav-divider.less";
+@import "less/mixins/nav-vertical-align.less";
+@import "less/mixins/opacity.less";
+@import "less/mixins/pagination.less";
+@import "less/mixins/pagination.less";
+@import "less/mixins/panels.less";
+@import "less/mixins/progress-bar.less";
+@import "less/mixins/reset-filter.less";
+@import "less/mixins/resize.less";
+@import "less/mixins/responsive-visibility.less";
+@import "less/mixins/size.less";
+@import "less/mixins/tab-focus.less";
+@import "less/mixins/table-row.less";
+@import "less/mixins/text-emphasis.less";
+@import "less/mixins/text-overflow.less";
+@import "less/mixins/vendor-prefixes.less";
+
+//variables
+@import "variables.less";
+/* -------------------------------------------------- HAND STYLES */
+@red: #d83d29; // variables
+
+/* font-family: "PTSerifRegular"; */
+@font-face {
+    font-family: "PTSerifRegular";
+    src: url("../fonts/PTSerifRegular/PTSerifRegular.eot");
+    src: url("../fonts/PTSerifRegular/PTSerifRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PTSerifRegular/PTSerifRegular.woff") format("woff"),
+    url("../fonts/PTSerifRegular/PTSerifRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PTSerifBoldItalic"; */
+@font-face {
+    font-family: "PTSerifBoldItalic";
+    src: url("../fonts/PTSerifBoldItalic/PTSerifBoldItalic.eot");
+    src: url("../fonts/PTSerifBoldItalic/PTSerifBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PTSerifBoldItalic/PTSerifBoldItalic.woff") format("woff"),
+    url("../fonts/PTSerifBoldItalic/PTSerifBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PTSerifItalic"; */
+@font-face {
+    font-family: "PTSerifItalic";
+    src: url("../fonts/PTSerifItalic/PTSerifItalic.eot");
+    src: url("../fonts/PTSerifItalic/PTSerifItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PTSerifItalic/PTSerifItalic.woff") format("woff"),
+    url("../fonts/PTSerifItalic/PTSerifItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PTSerifBold"; */
+@font-face {
+    font-family: "PTSerifBold";
+    src: url("../fonts/PTSerifBold/PTSerifBold.eot");
+    src: url("../fonts/PTSerifBold/PTSerifBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PTSerifBold/PTSerifBold.woff") format("woff"),
+    url("../fonts/PTSerifBold/PTSerifBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PTSansCaptionRegular"; */
+@font-face {
+    font-family: "PTSansCaptionRegular";
+    src: url("../fonts/PTSansCaptionRegular/PTSansCaptionRegular.eot");
+    src: url("../fonts/PTSansCaptionRegular/PTSansCaptionRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PTSansCaptionRegular/PTSansCaptionRegular.woff") format("woff"),
+    url("../fonts/PTSansCaptionRegular/PTSansCaptionRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PTSansCaptionBold"; */
+@font-face {
+    font-family: "PTSansCaptionBold";
+    src: url("../fonts/PTSansCaptionBold/PTSansCaptionBold.eot");
+    src: url("../fonts/PTSansCaptionBold/PTSansCaptionBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PTSansCaptionBold/PTSansCaptionBold.woff") format("woff"),
+    url("../fonts/PTSansCaptionBold/PTSansCaptionBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PTSansRegular"; */
+@font-face {
+    font-family: "PTSansRegular";
+    src: url("../fonts/PTSansRegular/PTSansRegular.eot");
+    src: url("../fonts/PTSansRegular/PTSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PTSansRegular/PTSansRegular.woff") format("woff"),
+    url("../fonts/PTSansRegular/PTSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "PTSansRegular"; */
+@font-face {
+    font-family: "PTSansRegular";
+    src: url("../fonts/PTSansRegular/PTSansRegular.eot");
+    src: url("../fonts/PTSansRegular/PTSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/PTSansRegular/PTSansRegular.woff") format("woff"),
+    url("../fonts/PTSansRegular/PTSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.row-no-pad-in{
+	> div{
+		padding: 0;
+	}
+}
+.no-gutters{
+	margin-left: 0;
+	margin-right: 0;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+
+// * {
+//     -webkit-transition: all 0.3s ease ;                  
+//     -moz-transition: all 0.3s ease ;                 
+//     -o-transition: all 0.3s ease ;   
+//     -ms-transition: all 0.3s ease ;          
+//     transition: all 0.3s ease ;
+// }
+
+
+// footer begin
+footer{
+    height: 1236px;
+    width: 100%;
+}
+.footer-nav{
+    width: 100%;
+    height: 732px;
+    background-color: #efeed5;
+    padding-top: 85px;
+}
+.footer-nav-left{
+    height: 100%;
+    .logo-footer{
+        position: relative;
+        width: 100%;
+        height: 100px;
+        img{
+            position: absolute;
+            width: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+    }
+}
+.fb-pic{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    img{
+        position: absolute;
+        width: auto;
+        top: 50px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+.footer-pre-logo{
+    font-size: 15px;
+    font-family: "PTSerifRegular";
+    color: #000;
+    text-align: center;
+    width: 77%;
+    margin: 0 auto;
+}
+.style-panel{
+    ul{
+        border-top: 1px solid #bcbba6;
+        li{
+            font-size: 10px;
+            font-family: "PTSansCaptionRegular";
+            padding-bottom: 12px;
+            outline: none;
+            font-weight: 600;
+            a{
+                color: #1c5281;
+                text-decoration: none;
+            }
+        }
+        li:not(:first-child){
+            padding-left: 23px;
+        }
+        li:first-child{
+            padding-top: 19px;
+            padding-bottom: 19px;
+        }
+    }
+    ul:first-child{
+        border:none;
+    }
+}
+.footer-contact{
+    width: 90%;
+    height: 324px;
+    background-color: #17456c;
+}
+.mail-table{
+    a{
+        color:#fde127;
+        text-decoration: none;
+    }
+}
+.table-contact{
+    margin-top: 70px;
+    margin-left: 50px;
+     tr{
+        td{
+            font-size: 14px;
+            font-family: "PTSansRegular";
+            padding-top: 25px;
+            padding-left: 24px;
+            color:#fff;
+        }
+        .mail-table{
+            color:#fde127;
+        }
+    }
+}
+.link-info{
+    p{
+        font-size: 14px;
+        font-family: "PTSansRegular";
+        color: #e8ebef;
+        margin-top: 96px;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 1px;
+        width: 102%;
+        span{
+            color: #fde127;
+        }
+    }
+}
+.link-info{
+    position: relative;
+    img{
+        position: absolute;
+        width: 73%;
+        height: 20%;
+        top: 192px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+.form-control{
+    height: 60px;
+    width: 100%;
+}
+.footer-contact-table{
+    margin: 0;
+}
+.bg-contact{
+    width: 100%;
+    height: auto;
+    background-color: #17456c;
+}
+.input-group-addon{
+    right: 16%;
+    border: 0;
+
+    :hover{
+        background-color: #fff;
+    }
+    :active{
+        background-color: #fff;
+        border: 0;
+    }
+
+ }
+.form-control{
+    box-shadow: none !important;
+    border: none;
+}
+.input-group{
+    top: 72px;
+    width: 99%;
+    padding-left: 68px;
+    padding-right: 50px;
+}
+.input-group-addon{
+    width: 42px;
+    height: 50px;
+    border: none;
+    padding: 0;
+    background-color: #fff;
+    img{
+        width: 77%;
+        height: 75%;
+    }
+    :hover{
+        background-color: #fff;
+    }
+    :active{
+        background-color: #fff;
+        border: 0;
+    }
+    :focus{
+        background-color: #fff;
+        border: 0;
+    }
+}
+.footer-maps{
+    width: 100%;
+    min-height: 178px;
+    background-position: center;
+    position: relative;
+    &:before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #17456c;
+        opacity: 0.55;
+    }
+}
+.footer-maps{
+    span{
+        position: absolute;
+        font-size: 14px;
+        font-family: "PTSansRegular";
+        color:#fff;
+        top: 50%;
+        left: 11%;
+    }
+}
+.bottop-input{
+    height: 60px;
+    width: 80%;
+    position: absolute;
+    top: 270%;
+    left: 20%;
+    span{
+        position: absolute;
+        display: block;
+        width: auto;
+        height: 50%;
+        font-size: 14px;
+        font-family: "PTSansRegular";
+        margin-bottom: 18px;
+        color: #e8ebef;
+    }
+    span:first-child{
+        margin-left: 17%;
+        img{
+            padding-left: 5%;
+        }
+    }
+    span:last-child{
+        top: 75%;
+        left: -15%;  
+    }
+}
+footer{
+    .hexagon {
+        position: relative;
+        width: 65px; 
+        height: 37.53px;
+        background-color: #1c5281;
+        margin: 18.76px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        border-left: 32.5px solid transparent;
+        border-right: 32.5px solid transparent;
+}
+
+.hexagon:before {
+        bottom: 100%;
+        border-bottom: 18.76px solid #1c5281;
+}
+
+.hexagon:after {
+        top: 100%;
+        width: 0;
+        border-top: 18.76px solid #1c5281;
+}
+}
+.back-to-top{
+    width: 100%;
+    height: 18px;
+    position: relative;
+    .hexagon{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        img{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            height: 100%;
+            width: 44%;
+        }
+    }
+}
+.footer-cont{
+    width:  1090px;
+}
+
+// footer end
+
+main{
+    height: 1900px;
+}
+
+@media (max-width: @screen-md-max) {}
+@media (max-width: @screen-sm-max) {}
+@media (max-width: @screen-xs-max) {}
