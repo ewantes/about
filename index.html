@@ -25,6 +25,7 @@
 <div class="background-white">	</div>
 <div class="wrapper about-page-wrapper">
 <header class="home-page-header"><!-- header START -->
+	<div class="col-md-12 col-lg-12 container-for-header">
 		<div class="col-md-4 left-header-home">
 			<div class="top-left-header">
 			<div class="search-active">
@@ -289,7 +290,7 @@
 					</div>
 				</div>
 		</div>
-
+	</div>
 	</div>
 			<footer><!--footer start -->
 		<div class="back-to-top">
@@ -441,10 +442,18 @@
 				
 			</div>
 		</div>
-		</div>
+		<!-- </div>
 		<div class="footer-maps" style="background-image: url(img/footer-location-info.png);">
 		<span>м.Київ, вул.Хрещатик 4, оф. 13, поштовий індекс: 01001</span>
-		</div>
+		</div> -->
+		<div class="footer-maps">
+                <div class="overlay">
+                    <span>м.Київ, вул.Хрещатик 4, оф. 13, поштовий індекс: 01001</span>
+                </div>
+                <div id="map-canvas">
+
+                </div>  
+        	</div>
 	</footer><!-- /footer -->
 
 
@@ -507,6 +516,54 @@ return false;
         });
         });
  </script>
+   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script>
+var map;
+var egglabs = new google.maps.LatLng(50.4523817, 30.5264717);
+var mapCoordinates = new google.maps.LatLng(50.4523817, 30.5264717);
+
+
+var markers = [];
+var image = new google.maps.MarkerImage(
+    'img/maps.png',
+    new google.maps.Size(60,80),
+    new google.maps.Point(0,0),
+    new google.maps.Point(42,56)
+  );
+
+function addMarker() 
+{
+      markers.push(new google.maps.Marker({
+      position: egglabs,
+      raiseOnDrag: false,
+      icon: image,
+      map: map,
+      draggable: false
+      }));
+      
+      
+}
+
+
+function initialize() {
+  var mapOptions = {
+    backgroundColor: "#ffffff",
+    zoom: 17,
+    disableDefaultUI: true,
+    center: mapCoordinates,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    
+    
+    
+  };
+
+map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+addMarker();
+ 
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
  <script src="js/slider.js"></script>
 </body>
 </html>

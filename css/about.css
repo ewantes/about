@@ -7643,7 +7643,18 @@ footer {
   background-position: center;
   position: relative;
 }
-.footer-maps:before {
+#map-canvas {
+  width: 100%;
+  min-height: 178px;
+}
+.overlay {
+  width: 100%;
+  min-height: 178px;
+  background-position: center;
+  position: absolute;
+  z-index: 5;
+}
+.overlay:before {
   content: '';
   width: 100%;
   height: 100%;
@@ -7714,7 +7725,6 @@ footer .hexagon:after {
 }
 .back-to-top {
   width: 100%;
-  height: 18px;
   position: relative;
 }
 .back-to-top .hexagon {
@@ -7737,4 +7747,9 @@ footer .hexagon:after {
 }
 .footer-cont {
   width: 1090px;
+}
+.container-for-header {
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
