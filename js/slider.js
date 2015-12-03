@@ -56,7 +56,7 @@ window.onload = function () {
   function reflowContent() {
       var showing = scrollContent.width() + parseInt( scrollContent.css( "margin-left" ), 10 );
       var gap = scrollPane.width() - showing;
-      if ( gap > 0 ) {
+      if ( gap > auto ) {
         scrollContent.css( "margin-left", parseInt( scrollContent.css( "margin-left" ), 10 ) + gap );
       }
   }

@@ -1,0 +1,97 @@
+.slider { margin: 20px 0 30px; }
+.scroll-pane { overflow: hidden; width: 940px; }
+.scroll-content { white-space: nowrap; float: left; list-style-type: none; margin: 0 0 36px; }
+.scroll-content li { display: inline; margin-right: 10px; position: relative; }
+.scroll-content li:last-child { margin: 0; }
+.scroll-bar-wrap { clear: left; padding: 0 4px 0 2px; background-color: #222; -moz-border-radius: 14px; -webkit-border-radius: 14px; border-radius: 14px; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
+.scroll-bar-wrap .ui-slider { background: none; border:0; height: 30px; margin: 0 auto;  }
+.scroll-bar-wrap .ui-handle-helper-parent { position: relative; width: 100%; height: 100%; margin: 0 auto; }
+.scroll-bar-wrap .ui-slider-handle { position: absolute; top:2px; height: 24px; z-index: 2; -moz-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; }
+.ui-state-default { background: url("../img/slider1.png") no-repeat scroll 50% 50% ;  }
+.ui-state-hover, .ui-state-focus { background: url("../img/slider1.png") 50% 50% no-repeat; outline: none }
+.scroll-bar-wrap .ui-slider-handle .ui-icon { margin: -8px auto 0; position: relative; top: 50%; background: url("ui-icons_cccccc_256x240.png") 0 -224px no-repeat; height: 16px; width: 16px; display: block; overflow: hidden; text-indent: -99999px;}
+.scroll-content img { border: 1px solid #fff; height: 400px; }
+
+.scroll-content{
+	padding: 0 !important;
+	margin: 0 0 0;
+
+}
+/*.ui-widget-header{
+	background-color: red !important;
+}*/
+.container-for-slider{
+	height: auto;
+	width: 808px;
+	
+	display: inline-block;
+	padding: 0;
+	margin:0;
+}
+.ui-slider{
+	width: 366px !important;
+}
+.ui-corner-bottom{
+	width: 368px !important;
+    margin: 10px auto 30px;
+    height: 5px;
+    background-color: #e6e5cf;
+    border: none;
+    margin-right: 23.5%;
+
+}
+.ui-handle-helper-parent{
+	width: 347.214px !important;
+
+}
+.ui-widget-header{
+	width: 813px;
+}
+/*.scroll-content li{
+	margin: 0;
+}
+.ui-state-default{
+	background-image: url(slider1.png);
+	background-repeat: no-repeat;
+	
+}*/
+.row-speedometr .col-speedometr{
+	display: inline-block;
+	margin: 0;
+	height: 80px;
+
+}
+.row-speedometr{
+	margin: 0;
+	padding: 0;
+}
+.side-yellow{
+	background-color: #fde127;
+	border: none !important;
+}
+.side-blue{
+	background-color: #1c5281;
+	background-image: url(../img/check.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none !important;
+}
+.col-date{
+	height: 40px !important;
+	font-family: "PTSansCaptionRegular";
+	font-size: 12px;
+}
+.title-slider{
+	height: 120px;
+	width: 100%;
+}
+.ui-slider-handle{
+	height: 2.2em !important;
+
+}
+.container-for-slider .row div:not(.side-yellow){
+	border-bottom: 1px solid #dddcc3;
+}
+.container-for-slider .row div:not(.side-blue){
+	border-bottom: 1px solid #dddcc3;
+}
