@@ -37,15 +37,13 @@
     height: 5px;
     background-color: #e6e5cf;
     border: none;
-    margin-right: 23.5%;
-
 }
 .ui-handle-helper-parent{
 	width: 347.214px !important;
 
 }
 .ui-widget-header{
-	width: 813px;
+	width: 100%;
 }
 /*.scroll-content li{
 	margin: 0;

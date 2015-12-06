@@ -3573,6 +3573,12 @@ tbody.collapse.in {
   right: 0;
   left: auto;
 }
+.dropdown-menu.hexagon li a{
+  color: #1c5281;
+}
+.dropdown-menu.hexagon li a:hover{
+  color: #1c5281;
+}
 .dropdown-menu .divider {
   height: 1px;
   margin: 8px 0;
@@ -6872,18 +6878,18 @@ footer {
   font-family: "PTSerifRegular";
   color: #000;
   text-align: center;
-  width: 77%;
+  width: 85%;
   margin: 0 auto;
 }
 .style-panel ul {
   border-top: 1px solid #bcbba6;
 }
 .style-panel ul li {
-  font-size: 10px;
+  font-size: 12px;
   font-family: "PTSansCaptionRegular";
   padding-bottom: 12px;
   outline: none;
-  font-weight: 600;
+  font-weight: 400;
 }
 .style-panel ul li a {
   color: #1c5281;
@@ -7046,9 +7052,22 @@ footer {
   font-family: "PTSansRegular";
   color: #e8ebef;
 }
-.bottop-input span:first-child {
+/*.bottop-input span:first-child {
   float: right;
   margin-top: 8%;
+}*/
+.info-group{
+  text-align: right;
+  margin-top: 8%;
+}
+
+.info-group span{
+  display: inline-block;
+  vertical-align: middle;
+}
+.info-group a img{
+  display: inline-block;
+  vertical-align: middle;
 }
 .bottop-input span:last-child {
   float: right;

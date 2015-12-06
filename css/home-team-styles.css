@@ -3548,6 +3548,12 @@ tbody.collapse.in {
 .dropdown-toggle:focus {
   outline: 0;
 }
+.dropdown-menu.hexagon li a{
+  color: #1c5281;
+}
+.dropdown-menu.hexagon li a:hover{
+  color: #1c5281;
+}
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -7119,96 +7125,72 @@ button.close {
 #ddmenu li a:hover {
   color: #aeaea9;
 }
-.left-menu {
-  padding: 0;
-  margin: 0;
+.about-left .about-sub {
+  padding-top: 100px;
 }
-.left-cont {
-  margin-top: 35%;
+.active-sub a{
+  color: #90979a !important;
+
 }
-.left-cont li {
-  font-size: 14px;
-  font-family: "PTSans-Caption";
-  padding-bottom: 16px;
-  position: relative;
-}
-.left-cont li a {
-  text-decoration: none;
-  color: #1c5281;
-}
-.left-cont li:first-child {
-  background-image: none;
-  font-size: 25px;
-  padding-bottom: 25px;
-  font-weight: bold;
-}
-.first_color {
-  color: #33332e !important;
-}
-.left-cont img {
-  vertical-align: middle;
-  margin-left: 10px;
-}
-.active-mn {
-  color: #33332e !important;
-}
-.contentnews {
-  height: 100%;
-}
-.contentnews .date {
-  color: #33322e;
-  font-size: 11px;
-  text-align: left;
-  display: block;
-  font-family: "PTSansCaptionRegular";
-  margin-top: 21px;
-  font-weight: normal;
-}
-.contentnews .line {
-  width: 51px;
-  height: 3px;
-  background-color: #000;
-  margin-top: 10px;
-}
-.contentnews .title-news {
-  display: block;
-  text-align: left;
-  padding-top: 15px;
-  line-height: 19px;
-  color: #1b5181;
-  font-family: "PTSerif-Bold", serif;
-  font-size: 15px;
-  font-weight: bold;
-}
-.contentnews .title-news a {
-  color: #1b5181;
-  text-decoration: none;
-}
-.itemtop {
-  margin-top: 19%;
-  width: 82%;
-}
-.itemtop .item-tt {
-  color: #33332e;
-}
-.itemtop span {
-  color: #1c5281;
-  font-family: "PTSerif-Bold", serif;
+
+.about-left .about-sub h3 {
+  font-family: "PTSerifBold";
   font-size: 24px;
-  font-weight: bold;
+  line-height: 60px;
 }
-.itemtop span a {
+.about-left a:hover{
+  text-decoration: none;
+}
+.about-left .about-sub ul {
+  /*padding-top: 28px;*/
+}
+.about-left .about-sub ul li {
+  /*padding-bottom: 20px;*/
+}
+.about-left .about-sub ul li img {
+  margin-left: 7px;
+  vertical-align: sub;
+}
+.about-left .about-sub ul li a {
+  font-size: 14px;
+  color: #1c5281;
+  font-family: "PTSansCaptionRegular";
+  font-weight: normal;
+  line-height: 36px;
+}
+.about-left .last-news {
+  padding-top: 44px;
+}
+.about-left .last-news h2 span {
+  font-family: "PTSerifBold";
+  font-size: 22px;
+  color: #1c5281;
+}
+.about-left .last-news h2 span a {
   color: #1c5281;
   text-decoration: none;
 }
-.item {
-  width: 100%;
-  margin-bottom: 8.5%;
+.about-left .last-news h2 span:first-child {
+  color: #000;
 }
-.text-right-content {
-  height: auto;
-  margin-top: 6%;
-  padding: 0;
+.about-left .last-news .date {
+  font-family: "PTSansRegular";
+  font-size: 14px;
+  color: #33332e;
+  padding-top: 26px;
+  display: block;
+}
+.about-left .last-news .last-news-article {
+  font-family: "PTSerifBold";
+  font-size: 14px;
+  color: #1c5281;
+  display: block;
+  padding-top: 14px;
+  line-height: 20px;
+}
+.about-left .last-news .last-news-article a {
+  color: #1c5281;
+  text-decoration: none;
 }
 footer {
   width: 100%;
@@ -7241,18 +7223,18 @@ footer {
   font-family: "PTSerifRegular";
   color: #000;
   text-align: center;
-  width: 77%;
+  width: 85%;
   margin: 0 auto;
 }
 .style-panel ul {
   border-top: 1px solid #bcbba6;
 }
 .style-panel ul li {
-  font-size: 10px;
+  font-size: 12px;
   font-family: "PTSansCaptionRegular";
   padding-bottom: 12px;
   outline: none;
-  font-weight: 600;
+  font-weight: 400;
 }
 .style-panel ul li a {
   color: #1c5281;
@@ -7415,9 +7397,22 @@ footer {
   font-family: "PTSansRegular";
   color: #e8ebef;
 }
-.bottop-input span:first-child {
+/*.bottop-input span:first-child {
   float: right;
   margin-top: 8%;
+}*/
+.info-group{
+  text-align: right;
+  margin-top: 8%;
+}
+
+.info-group span{
+  display: inline-block;
+  vertical-align: middle;
+}
+.info-group a img{
+  display: inline-block;
+  vertical-align: middle;
 }
 .bottop-input span:last-child {
   float: right;

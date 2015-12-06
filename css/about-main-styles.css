@@ -76,25 +76,31 @@ a:focus {
 .about-left .about-sub {
   padding-top: 100px;
 }
+.active-sub a{
+  color: #90979a !important;
+
+}
 .about-left .about-sub h3 {
   font-family: "PTSerifBold";
-  font-size: 21px;
+  font-size: 24px;
+  line-height: 60px;
 }
 .about-left .about-sub ul {
-  padding-top: 28px;
+  /*padding-top: 28px;*/
 }
 .about-left .about-sub ul li {
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;*/
 }
 .about-left .about-sub ul li img {
   margin-left: 7px;
   vertical-align: sub;
 }
 .about-left .about-sub ul li a {
-  font-size: 12px;
+  font-size: 14px;
   color: #1c5281;
   font-family: "PTSansCaptionRegular";
-  font-weight: 600;
+  font-weight: normal;
+  line-height: 36px;
 }
 .about-left .last-news {
   padding-top: 44px;
