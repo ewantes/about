@@ -7599,7 +7599,7 @@ footer .hexagon:after {
     height: auto;
   }
   .team-cont .gap-hex {
-    margin-left: 11% !important;
+    margin-left: 12.25% !important;
   }
   .footer-nav {
     height: 775px;
@@ -7628,9 +7628,7 @@ footer .hexagon:after {
   }
 }
 @media (min-width: 1680px) {
-  .team-cont .gap-hex {
-    margin-left: 9% !important;
-  }
+  
   .title-news {
     font-size: 19px !important;
   }
@@ -7644,9 +7642,7 @@ footer .hexagon:after {
   }
 }
 @media (min-width: 1920px) {
-  .team-cont .gap-hex {
-    margin-left: 7.5% !important;
-  }
+  
   .title-news {
     font-size: 22px !important;
   }
