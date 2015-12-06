@@ -7711,3 +7711,50 @@ footer .hexagon:after {
     margin: 0;
   }
 }
+
+/*tog-team*/
+.tab-pane {
+  height: auto;
+  width: 95%;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+.vhiden {
+  visibility: hidden;
+}
+.not-active {
+  display: none    !important;
+}
+.container-for-text .size-text {
+  font-size: 48px;
+  font-family: "PTSerifRegular";
+  color: #33332e;
+}
+.container-for-text p {
+  font-size: 14px;
+  font-family: "PTSerifRegular";
+  color: #33332e;
+  padding-top: 40px;
+}
+.container-for-info-text {
+  margin-top: 40px;
+}
+.container-for-info-text .two-size-text {
+  font-size: 18px;
+  font-family: "PTSerifBold";
+}
+.container-for-info-text .style-pils {
+  padding-left: 18px;
+}
+.container-for-info-text .style-pils li {
+  font-size: 14px;
+  font-family: "PTSerifRegular";
+  list-style: circle;
+}
+.container-for-info-text .style-pils li a {
+  text-decoration: none;
+  color: #1c5281;
+}
+.container-for-info-text .style-pils li a span {
+  color: #33332e;
+}

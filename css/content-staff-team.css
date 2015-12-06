@@ -77,12 +77,16 @@
   font-size: 48px;
   font-family: "PTSerifRegular";
   color: #33332e;
+  line-height: 60px;
+  margin: 55px 0 25px;
 }
 .team-cont .container-for-text p {
   font-size: 14px;
+  line-height: 24px;
   font-family: "PTSerifRegular";
   color: #33332e;
-  padding-top: 40px;
+  padding-top: 0;
+  margin-bottom: 25px;
 }
 .team-cont .container-for-info-text {
   margin-top: 40px;
@@ -90,6 +94,7 @@
 .team-cont  .container-for-info-text .two-size-text {
   font-size: 18px;
   font-family: "PTSerifBold";
+  margin-bottom: 25px;
 }
 .team-cont  .container-for-info-text .style-pils {
   padding-left: 18px;
@@ -102,6 +107,7 @@
 .team-cont .container-for-info-text .style-pils li a {
   text-decoration: none;
   color: #1c5281;
+  line-height: 36px;
 }
 .team-cont .container-for-info-text .style-pils li a span {
   color: #33332e;

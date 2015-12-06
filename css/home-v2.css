@@ -408,13 +408,15 @@ body {
 .cont-news-last .row .last-news-title {
   height: 100%;
 }
-.cont-news-last .row .last-news-title h1 {
+.cont-news-last .row .last-news-title h1 span {
   font-family: "PTSerifBold";
   font-size: 60px;
   color: #1c5281;
 }
-.cont-news-last .row .last-news-title h1:first-child {
+.cont-news-last .row .last-news-title h1 {
   color: #000;
+  font-size: 60px;
+  font-family: "PTSerifBold";
   margin-top: 22px;
 }
 .cont-news-last .row .last-news-title .customNavigation {
@@ -547,8 +549,7 @@ body {
   background-color: #e6e5cf;
   top: 0;
   left: 0;
-  z-index: 9998;
-  visibility: hidden;
+  /*z-index: 9998;*/
   opacity: 0;
 
   transform: perspective(600px) rotateX(-60deg);

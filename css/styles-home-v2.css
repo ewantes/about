@@ -7102,6 +7102,7 @@ footer .hexagon:after {
   width: 100%;
   height: 18px;
   position: relative;
+  z-index: 99999;
 }
 .back-to-top .hexagon {
   position: absolute;

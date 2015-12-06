@@ -52,12 +52,13 @@
   padding: 6px 7px;
   line-height: 1.4em;
   color: #1c5281;
-
+  font-size: 12px;
 }
 
 #ddmenu .hexagonq {
   position: absolute;
-  width: 166px;
+  width: 210px;
+  padding: 15px 5px 15px 15px;
   background-color: #e6e5cf;
   margin: 47.92px 0;
   z-index: 5;
@@ -71,8 +72,8 @@
   content: "";
   position: absolute;
   width: 0;
-  border-left: 83px solid transparent;
-  border-right: 83px solid transparent;
+  border-left: 105px solid transparent;
+  border-right: 105px solid transparent;
   display: block;
   left: 0;
 }
@@ -122,12 +123,12 @@ img { border: 0; max-width: 100%; }
 
 @media (min-width: 1600px) {
     .cont-news-last{
-      margin-top: 120px;
+      margin-top: 14%;
     }
 }
 @media (min-width: 1900px) {
     .cont-news-last{
-      margin-top: 250px;
+      margin-top: 17%;
     }
 }
 .max-width-fix{
@@ -220,8 +221,8 @@ img { border: 0; max-width: 100%; }
   top: 0;
   left: 0;
   z-index: 9998;
-  visibility: hidden;
   opacity: 0;
+  visibility: hidden;
 
   transform: perspective(600px) rotateX(-60deg);
 
